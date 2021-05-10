@@ -1,6 +1,11 @@
 package com.chl.userserviceapi.model;
 
-public class TUserModel {
+import java.io.Serializable;
+
+/**
+ * @author admin
+ */
+public class TUserModel implements Serializable {
     private Integer id;
 
     private String account;
