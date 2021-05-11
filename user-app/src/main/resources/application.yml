@@ -57,6 +57,8 @@ dubbo:
   # 协议名称
   protocol:
     name: dubbo
+    # 解決項目啟動，端口被使用的報錯
+    qosPort: 22221
     # 协议端口
     port: 20881
     # 协议访问log
